@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >
+            Information page
+        </title>
+    </head>
+
+<body>
+    <h1>
+        Heading one
+    </h1>
+    <img src="itl.cat_amazing-nature-wallpapers-ever_1862628.png" height="200" alt=" peter parker love ">
+<br>
+<img src="wallpaperflare.com_wallpaper (3).jpg" alt="peter love" height="200">
+<br>
+<br>
+    <!--
+
+    <video controls autoplay height="200" width="200" muted>
+    <source src="WhatsApp Video 2023-09-21 at 21.05.52.mp4" type="video/mp4"></video>
+    -->
+
+    <form action="bill.php" method="post">
+        <label for="username"> username :</label>
+        <input type="text" id="username"  minlength="5">
+        
+        <br>
+        <label for="bday"> birthday :</label>
+        <input type="date" id="birthday">
+
+        <br>
+        <label for="password"> password :</label>
+        <input type="password" minlength="7" >
+
+        <br>
+        <label for="phone">phone :</label>
+        <input type="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+        <br>
+        <label for="title">title :</label>
+       <label for="phD">phD.</label>
+        <input type="radio" id="phD" name="title">
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr" name="title">
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" name="title">
+        <br>
+        <label for="payment">payment :</label>
+        <select name="payment" id="payment" size="2">
+            <option value="mastercard">mastercard</option>
+            <option value="visa">visa</option>
+            <option value="giftbox">giftbox</option>
+        </select>
+        <br>
+        <label for="comments">comments :</label>
+        <textarea name="comments" id="comments"></textarea>
+        <br>
+        <input type="reset" value="clear" id="reset">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
